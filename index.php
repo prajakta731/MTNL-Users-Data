@@ -14,6 +14,10 @@ require("db.php");
 </head>
 <body>
     <div class="container">
+        <h1 class="text-center">
+          MTNL Users
+        </h1><hr>
+        <a href="adduser.php" class="btn btn-primary">Add User</a>
         <div class="table-responsive">
             <table class="table table-striped table-hover">
                 <thead>
